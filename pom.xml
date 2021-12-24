@@ -12,7 +12,7 @@
 	<artifactId>hr-users</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hr-users</name>
-	<description>Microservice for providing authorization</description>
+	<description>Microservice for managing the user entity for the HR system.</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.0</spring-cloud.version>
@@ -25,6 +25,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>2.4.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
